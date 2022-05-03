@@ -1,0 +1,11 @@
+kv = float(input())
+wpl = float(input())
+lpl = float(input())
+wpei = float(input())
+lpei = float(input())
+plochki = ((kv**2-wpei*lpei)/(wpl*lpl))
+vreme = plochki*0.2
+plochki_r = round(plochki, 2)
+vreme_r = round(vreme, 2)
+print(plochki_r)
+print(vreme_r)

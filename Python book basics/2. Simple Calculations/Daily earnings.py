@@ -1,0 +1,10 @@
+den = int(input())
+pari = float(input())
+kurs = float(input())
+godishno = den*pari*12
+bonus = 2.5*den*pari
+danak = 0.25*(godishno+bonus)
+result = godishno+bonus-danak
+na_den = result/365
+leva = na_den*kurs
+print('%.2f' % leva)

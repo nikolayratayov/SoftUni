@@ -1,0 +1,5 @@
+ime = input()
+prezime = input()
+god = input()
+grad = input()
+print('You are {0} {1}, a {2}-years old person from {3}.'.format(ime, prezime, god, grad))

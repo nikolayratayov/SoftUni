@@ -1,0 +1,6 @@
+print('CASH RECEIPT')
+print('------------------------------')
+print('Charged to____________________')
+print('Received by___________________')
+print('------------------------------')
+print('(c) SoftUni')

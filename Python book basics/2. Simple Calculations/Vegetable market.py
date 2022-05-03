@@ -1,0 +1,5 @@
+prveg = float(input())
+prfr = float(input())
+kgveg = int(input())
+kgfr = int(input())
+print(((prveg*kgveg)+(prfr*kgfr))/1.94)
