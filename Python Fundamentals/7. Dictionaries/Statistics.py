@@ -17,9 +17,3 @@ for i in mydict:
 
 print(f'Total Products: {len(mydict)}')
 print(f'Total Quantity: {sumata}')
-
-
-
-# myd = {'a': 1, 'b': 2}
-# for i in myd:
-#     print(i, myd[i])
