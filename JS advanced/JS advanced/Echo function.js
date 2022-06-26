@@ -1,1 +1,4 @@
-console.log('Hello JavaScript!');
+function solve(a) {
+    console.log(a.length)
+    console.log(a);
+}
