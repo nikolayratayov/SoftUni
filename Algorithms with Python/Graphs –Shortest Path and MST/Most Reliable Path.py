@@ -1,3 +1,4 @@
+from collections import deque
 from queue import PriorityQueue
 
 
@@ -24,7 +25,7 @@ start_node = int(input())
 end_node = int(input())
 
 pq = PriorityQueue()
-pq.put((100, start_node))
+pq.put((-100, start_node))
 
 distance = [float('-inf')] * nodes
 distance[start_node] = 100
@@ -37,7 +38,16 @@ while not pq.empty():
         break
     for edge in graph[node]:
         child = edge.second if edge.first == node else edge.first
-        new_distance = max_distance * edge.weight / 100
+        new_distance = -max_distance * edge.weight / 100
         if new_distance > distance[child]:
             distance[child] = new_distance
             parent[child] = node
+            pq.put((-new_distance, child))
+
+print(f'Most reliable path reliability: {distance[end_node]:.2f}%')
+path = deque()
+node = end_node
+while node is not None:
+    path.appendleft(node)
+    node = parent[node]
+print(*path, sep=' -> ')
