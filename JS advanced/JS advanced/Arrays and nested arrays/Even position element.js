@@ -5,6 +5,5 @@ function solve(a){
             b.push(a[i]);
         }
     }
-    
     console.log(b.join(' '));
 }
