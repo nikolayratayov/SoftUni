@@ -27,7 +27,6 @@ def dfs(node, graph, visited, visited_money, money, best_false_res):
         dfs(child[0], graph, visited, visited_money, child[1], best_false_res)
 
 
-
 has_cycle = True
 pairs = int(input())
 graph = {}
