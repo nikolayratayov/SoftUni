@@ -1,0 +1,28 @@
+Index: Algorithms with Python/Regular Exam/Conditional Expression Resolver.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># t ? t ? t ? 4 : 1 : 2 : 3\t     4\t    (t ? (t ? (t ? 4 : 1) : 2) : 3)\r\nimport re\r\n\r\n\r\ndef find_ans(line):\r\n    line_lst = line.split(' ? ')\r\n    if len(line_lst) == 2:\r\n        numbers_list = line_lst[1].split(' : ')\r\n        if line_lst[0] == 't':\r\n            return numbers_list[0]\r\n        elif line_lst[0] == 'f':\r\n            return numbers_list[1]\r\n    regex = r'([tf]\\s\\?\\s\\d+\\s:\\s\\d+)'\r\n    inner = re.search(regex, line).group()\r\n    idx_of_inner = line.find(inner)\r\n    eee = line[:(idx_of_inner - 1)] + ' ' + find_ans(inner) + line[idx_of_inner + len(inner):]\r\n    maikati = len(eee.split(' ? '))\r\n    if maikati > 2:\r\n        find_ans(eee)\r\n    else:\r\n        vai = eee.split(' ? ')\r\n        vai_num = vai[1].split(' : ')\r\n        if vai[0] == 't':\r\n            print(vai_num[0])\r\n        else:\r\n            print(vai_num[1])\r\n\r\nline = input()\r\n\r\nres = []\r\noffff = line.split(' ? ')\r\nif len(offff) == 2:\r\n    offfff_num = offff[1].split(' : ')\r\n    if offff[0] == 't':\r\n        print(offfff_num[0])\r\n    else:\r\n        print(offfff_num[1])\r\nelse:\r\n    find_ans(line)\r\n\r\n
+===================================================================
+diff --git a/Algorithms with Python/Regular Exam/Conditional Expression Resolver.py b/Algorithms with Python/Regular Exam/Conditional Expression Resolver.py
+--- a/Algorithms with Python/Regular Exam/Conditional Expression Resolver.py	
++++ b/Algorithms with Python/Regular Exam/Conditional Expression Resolver.py	
+@@ -37,4 +37,3 @@
+         print(offfff_num[1])
+ else:
+     find_ans(line)
+-
+Index: Algorithms with Python/Regular Exam/Guards.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def dfs(node, graph, visited):\r\n    if node in visited:\r\n        return\r\n    visited.add(node)\r\n    for child in graph[node]:\r\n        dfs(child, graph, visited)\r\n\r\nall_nodes = set()\r\nnodes = int(input())\r\nedges = int(input())\r\ngraph = []\r\n[graph.append([]) for _ in range(nodes + 1)]\r\nfor _ in range(edges):\r\n    source, dest = [int(x) for x in input().split()]\r\n    all_nodes.add(source)\r\n    all_nodes.add(dest)\r\n    graph[source].append(dest)\r\nstart = int(input())\r\nvisited = set()\r\n\r\ndfs(start, graph, visited)\r\nresult = []\r\nfor i in all_nodes:\r\n    if i not in visited:\r\n        result.append(i)\r\nprint(*sorted(result), sep=' ')
+===================================================================
+diff --git a/Algorithms with Python/Regular Exam/Guards.py b/Algorithms with Python/Regular Exam/Guards.py
+--- a/Algorithms with Python/Regular Exam/Guards.py	
++++ b/Algorithms with Python/Regular Exam/Guards.py	
+@@ -23,4 +23,4 @@
+ for i in all_nodes:
+     if i not in visited:
+         result.append(i)
+-print(*sorted(result), sep=' ')
+\ No newline at end of file
++print(*sorted(result), sep=' ')

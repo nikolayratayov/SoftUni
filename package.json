@@ -1,0 +1,24 @@
+{
+  "name": "softuni",
+  "version": "1.0.0",
+  "description": "SoftUni homeworks from my SoftUni courses\r - Programming basics [certificate](https://softuni.bg/certificates/details/128160/b1dc9a24)\r - Programming Fundamentals with Python [certificate](https://softuni.bg/certificates/details/138737/37f32941)\r - Algorithms with Python [certificate](https://softuni.bg/certificates/details/139930/1c702b24)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolayratayov/SoftUni.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolayratayov/SoftUni/issues"
+  },
+  "homepage": "https://github.com/nikolayratayov/SoftUni#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}

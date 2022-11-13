@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c9752ef-b744-4391-8e04-ceeafae064cd" name="Changes" comment="python OOP">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SoftUni.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_15_2022_1_17_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Classes and Attributes/Exercise/10. Contacts-Builder/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Classes and Attributes/Exercise/10. Contacts-Builder/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Classes and Attributes/Exercise/11. View-Model/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Classes and Attributes/Exercise/11. View-Model/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Unit Testing and Error Handling/Exercise/07.Form-Validation/formValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Unit Testing and Error Handling/Exercise/07.Form-Validation/images/background3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Unit Testing and Error Handling/Exercise/07.Form-Validation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS advanced/Unit Testing and Error Handling/Exercise/07.Form-Validation/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/iconProfile2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/04.Locked-Profile/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/06.Blog/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/06.Blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/06.Blog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/06.Blog/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/06.Blog/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/advanced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/bus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/cookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/forecaster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/messenger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/data/phonebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/03.Students/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/03.Students/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/03.Students/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/03.Students/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/03.Students/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/04.Book-library/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/04.Book-library/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/04.Book-library/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/04.Book-library/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/04.Book-library/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/delapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/delindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/src/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/src/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/05.Fisher-Game/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/furniture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/homeLogged.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/solution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/06.Furniture/tests/e2e.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/advanced.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/bus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/cookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/forecaster.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/messenger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/data/phonebook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS advanced/JS applications/Data and authentication/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/kitten.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/tomcat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python advanced/Python OOP/Static and class methods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/example.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS advanced/JS applications/Asynchronous programming/03.Forecaster/app.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2968cpi7z7QwGJ6NnV5zQQFT4pn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="exceleditor.install" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\SoftUni\Python advanced\Python OOP\Static and class methods" />
+      <recent name="D:\GitHub\SoftUni\Python advanced\Python OOP\Encapsulation\Pizza maker\project" />
+      <recent name="D:\GitHub\SoftUni\Python advanced\Python OOP\Classes and objects\Spoopify\project" />
+      <recent name="D:\GitHub\SoftUni\Python advanced\Python OOP\First steps in OOP\Pokemon battle\project\project" />
+      <recent name="D:\GitHub\SoftUni\Python advanced\Python advanced\File handling\Even lines" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.offfffffff">
+    <configuration name="dasdas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/dasdas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="formula_team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager/project/formula_teams" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager/project/formula_teams/formula_team.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mercedes_team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager/project/formula_teams" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager/project/formula_teams/mercedes_team.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="offfffffff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Formula 1 Manager/offfffffff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tomcat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SoftUni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python advanced/Python OOP/Polymorphism and abstraction/Animals/project/tomcat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.offfffffff" />
+        <item itemvalue="Python.dasdas" />
+        <item itemvalue="Python.mercedes_team" />
+        <item itemvalue="Python.formula_team" />
+        <item itemvalue="Python.tomcat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c9752ef-b744-4391-8e04-ceeafae064cd" name="Changes" comment="." />
+      <created>1652422257360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652422257360</updated>
+    </task>
+    <task id="LOCAL-00283" summary="python OOP">
+      <created>1666786055492</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1666786055493</updated>
+    </task>
+    <task id="LOCAL-00284" summary="python OOP">
+      <created>1666789221251</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1666789221251</updated>
+    </task>
+    <task id="LOCAL-00285" summary="python OOP">
+      <created>1666791882493</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791882493</updated>
+    </task>
+    <task id="LOCAL-00286" summary="python OOP">
+      <created>1666792183458</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792183458</updated>
+    </task>
+    <task id="LOCAL-00287" summary="python OOP">
+      <created>1666792363223</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792363223</updated>
+    </task>
+    <task id="LOCAL-00288" summary="python OOP">
+      <created>1666846590863</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1666846590863</updated>
+    </task>
+    <task id="LOCAL-00289" summary="python OOP">
+      <created>1666856961174</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1666856961174</updated>
+    </task>
+    <task id="LOCAL-00290" summary="python OOP">
+      <created>1666861312954</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1666861312954</updated>
+    </task>
+    <task id="LOCAL-00291" summary="python OOP">
+      <created>1666864359341</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1666864359341</updated>
+    </task>
+    <task id="LOCAL-00292" summary="python OOP">
+      <created>1666866884242</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1666866884242</updated>
+    </task>
+    <task id="LOCAL-00293" summary="python OOP">
+      <created>1666869608260</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1666869608260</updated>
+    </task>
+    <task id="LOCAL-00294" summary="python OOP">
+      <created>1666906814188</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1666906814188</updated>
+    </task>
+    <task id="LOCAL-00295" summary="python OOP">
+      <created>1666932787786</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1666932787786</updated>
+    </task>
+    <task id="LOCAL-00296" summary="python OOP">
+      <created>1666937838867</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1666937838867</updated>
+    </task>
+    <task id="LOCAL-00297" summary="python OOP">
+      <created>1666948234705</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1666948234705</updated>
+    </task>
+    <task id="LOCAL-00298" summary="python OOP">
+      <created>1666951145452</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1666951145452</updated>
+    </task>
+    <task id="LOCAL-00299" summary="python OOP">
+      <created>1666952141252</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1666952141252</updated>
+    </task>
+    <task id="LOCAL-00300" summary="python OOP">
+      <created>1667056492995</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056492995</updated>
+    </task>
+    <task id="LOCAL-00301" summary="python OOP">
+      <created>1667056745766</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056745766</updated>
+    </task>
+    <task id="LOCAL-00302" summary="python OOP">
+      <created>1667057511458</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1667057511458</updated>
+    </task>
+    <task id="LOCAL-00303" summary="python OOP">
+      <created>1667057564975</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1667057564976</updated>
+    </task>
+    <task id="LOCAL-00304" summary="python OOP">
+      <created>1667118617512</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1667118617512</updated>
+    </task>
+    <task id="LOCAL-00305" summary="python OOP">
+      <created>1667160708041</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1667160708041</updated>
+    </task>
+    <task id="LOCAL-00306" summary="python OOP">
+      <created>1667199090456</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1667199090457</updated>
+    </task>
+    <task id="LOCAL-00307" summary="python OOP">
+      <created>1667246661973</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1667246661973</updated>
+    </task>
+    <task id="LOCAL-00308" summary="python OOP">
+      <created>1667281786230</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1667281786230</updated>
+    </task>
+    <task id="LOCAL-00309" summary="python OOP">
+      <created>1667286977704</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1667286977704</updated>
+    </task>
+    <task id="LOCAL-00310" summary="python OOP">
+      <created>1667310128053</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1667310128053</updated>
+    </task>
+    <task id="LOCAL-00311" summary="python OOP">
+      <created>1667384099103</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1667384099103</updated>
+    </task>
+    <task id="LOCAL-00312" summary="python OOP">
+      <created>1667397871410</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1667397871410</updated>
+    </task>
+    <task id="LOCAL-00313" summary="python OOP">
+      <created>1667400760748</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1667400760748</updated>
+    </task>
+    <task id="LOCAL-00314" summary="python OOP">
+      <created>1667805175525</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1667805175525</updated>
+    </task>
+    <task id="LOCAL-00315" summary="python OOP">
+      <created>1667806078119</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1667806078119</updated>
+    </task>
+    <task id="LOCAL-00316" summary="python OOP">
+      <created>1667808098194</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1667808098194</updated>
+    </task>
+    <task id="LOCAL-00317" summary="python OOP">
+      <created>1667809603206</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1667809603206</updated>
+    </task>
+    <task id="LOCAL-00318" summary="python OOP">
+      <created>1667816552793</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1667816552793</updated>
+    </task>
+    <task id="LOCAL-00319" summary="python OOP">
+      <created>1667887683776</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1667887683776</updated>
+    </task>
+    <task id="LOCAL-00320" summary="python OOP">
+      <created>1667890762069</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1667890762069</updated>
+    </task>
+    <task id="LOCAL-00321" summary="python OOP">
+      <created>1667892444295</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1667892444295</updated>
+    </task>
+    <task id="LOCAL-00322" summary="python OOP">
+      <created>1667894168129</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1667894168129</updated>
+    </task>
+    <task id="LOCAL-00323" summary="python OOP">
+      <created>1667896961046</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1667896961046</updated>
+    </task>
+    <task id="LOCAL-00324" summary="python OOP">
+      <created>1667918866812</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1667918866812</updated>
+    </task>
+    <task id="LOCAL-00325" summary="python OOP">
+      <created>1667981777923</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1667981777923</updated>
+    </task>
+    <task id="LOCAL-00326" summary="python OOP">
+      <created>1667987125786</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1667987125786</updated>
+    </task>
+    <task id="LOCAL-00327" summary="python OOP">
+      <created>1667994588809</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1667994588809</updated>
+    </task>
+    <task id="LOCAL-00328" summary="python OOP">
+      <created>1668059131108</created>
+      <option name="number" value="00328" />
+      <option name="presentableId" value="LOCAL-00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1668059131109</updated>
+    </task>
+    <task id="LOCAL-00329" summary="python OOP">
+      <created>1668061440477</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1668061440477</updated>
+    </task>
+    <task id="LOCAL-00330" summary="python OOP">
+      <created>1668066172443</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1668066172443</updated>
+    </task>
+    <task id="LOCAL-00331" summary="python OOP">
+      <created>1668145240563</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1668145240563</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <MESSAGE value="OOP" />
+    <MESSAGE value="Dictionaries" />
+    <MESSAGE value="Text processing" />
+    <MESSAGE value="Regular expressions" />
+    <MESSAGE value="Mid exams" />
+    <MESSAGE value="Final exam" />
+    <MESSAGE value="Algorithms" />
+    <MESSAGE value="python advanced" />
+    <MESSAGE value="python OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="python OOP" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
