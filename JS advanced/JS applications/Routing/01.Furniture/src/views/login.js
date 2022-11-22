@@ -1,10 +1,21 @@
 import { html } from "../../../../../../node_modules/lit-html/lit-html.js"
+import {login} from '../../api/data.js';
 
+let page = null;
 export async function loginView(ctx){
-    ctx.render(createLoginTemp());
+    page = ctx.page;
+    ctx.render(createLoginTemp(onSubmit));
 }
 
-function createLoginTemp(){
+function onSubmit(e){
+    e.preventDefault();
+    let formData = new FormData(e.target);
+    let {email, password} = Object.fromEntries(formData);
+    login(email, password);
+    page.redirect('/');
+}
+
+function createLoginTemp(handler){
     return html`
     <div class="row space-top">
         <div class="col-md-12">
@@ -12,7 +23,7 @@ function createLoginTemp(){
             <p>Please fill all fields.</p>
         </div>
     </div>
-    <form>
+    <form @submit = ${handler}>
         <div class="row space-top">
             <div class="col-md-4">
                 <div class="form-group">
