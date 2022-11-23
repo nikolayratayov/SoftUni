@@ -1,4 +1,5 @@
 import * as api from '../api/data.js';
+import {logout} from '../api/data.js';
 import {render} from '../../../../../node_modules/lit-html/lit-html.js';
 import page from '../../../../../node_modules/page/page.mjs';
 import { catalogView } from './views/catalog.js';
@@ -22,7 +23,30 @@ page('/my-furniture', renderMiddleware, myFurnitureView);
 page('*', catalogView);
 page.start();
 
+updateNav();
+
+document.getElementById('logoutBtn').addEventListener('click', async () => {
+    await logout();
+    updateNav();
+    page.redirect('/')
+})
+
+function updateNav(){
+    let userSection = document.getElementById('user');
+    let guestSection = document.getElementById('guest');
+    let userData = JSON.parse(sessionStorage.getItem('userData'));
+    if (userData){
+        userSection.style.display = 'inline-block';
+        guestSection.style.display = 'none';
+    }
+    else{
+        userSection.style.display = 'none';
+        guestSection.style.display = 'inline-block';
+    }
+}
+
 function renderMiddleware(ctx, next) {
     ctx.render = (content) => render(content, root);
+    ctx.updateNav = updateNav;
     next();
 }
