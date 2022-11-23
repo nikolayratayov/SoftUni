@@ -31,7 +31,7 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
     page.redirect('/')
 })
 
-function updateNav(){
+export function updateNav(){
     let userSection = document.getElementById('user');
     let guestSection = document.getElementById('guest');
     let userData = JSON.parse(sessionStorage.getItem('userData'));

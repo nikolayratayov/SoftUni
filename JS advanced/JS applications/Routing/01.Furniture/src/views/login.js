@@ -1,18 +1,19 @@
 import { html } from "../../../../../../node_modules/lit-html/lit-html.js"
 import {login} from '../../api/data.js';
 
-let page = null;
+let context = null;
 export async function loginView(ctx){
-    page = ctx.page;
+    context = ctx;
     ctx.render(createLoginTemp(onSubmit));
 }
 
-function onSubmit(e){
+async function onSubmit(e){
     e.preventDefault();
     let formData = new FormData(e.target);
     let {email, password} = Object.fromEntries(formData);
-    login(email, password);
-    page.redirect('/');
+    await login(email, password);
+    context.updateNav();
+    context.page.redirect('/');
 }
 
 function createLoginTemp(handler){

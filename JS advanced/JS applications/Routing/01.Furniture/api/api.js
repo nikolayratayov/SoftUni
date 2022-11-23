@@ -9,6 +9,9 @@ async function request(url, options){
             throw new Error(err.message);
         }
         try{
+            if (response.status === 204){
+                return response;
+            }
             let data = await response.json();
             return data;
         }
