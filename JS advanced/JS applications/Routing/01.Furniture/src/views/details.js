@@ -21,7 +21,7 @@ async function deleteItemById(e){
 function renderOwnerBtn(isOwner, deleteItemById, id){
     return isOwner ? html`
     <div>
-        <a href=”#” class="btn btn-info">Edit</a>
+        <a href="/edit/${id}" class="btn btn-info">Edit</a>
         <a @click=${deleteItemById} data-id=${id} href=”javascript:void(0)” class="btn btn-red">Delete</a>
     </div>
     ` : ''

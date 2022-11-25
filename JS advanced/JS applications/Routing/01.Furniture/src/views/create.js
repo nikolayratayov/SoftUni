@@ -1,4 +1,4 @@
-import {html} from '../../../../../../node_modules/lit-html/lit-html.js';
+import {html, render} from '../../../../../../node_modules/lit-html/lit-html.js';
 import {createItem} from '../../api/data.js';
 let context = null;
 export async function createView(ctx){
@@ -10,14 +10,27 @@ async function onSubmit(e){
     e.preventDefault();
     let formData = new FormData(e.target);
     let {make, model, year, description, price, img, material} = Object.fromEntries(formData);
-
+    let hasError = false;
     //validation
+    let isValidForm = {
+        hasMake: 'is-valid',
+        hasModel: 'is-valid',
+        hasYear: 'is-valid',
+        hasDescription: 'is-valid',
+        hasPrice: 'is-valid',
+        hasImg: 'is-valid',
+    }
+
+    if (!make || make.length < 4){isValidForm.hasMake = 'is-invalid'; hasError = true}
+    if (!model || model.length < 4){isValidForm.hasModel = 'is-invalid'; hasError = true}
+    if (!Number(year) || Number(year) < 1950 || Number(year) > 2050){isValidForm.hasYear = 'is-invalid'; hasError = true}
+    if(hasError) {return context.render(createProductTemp(onSubmit, isValidForm))}
 
     await createItem({make, model, year, description, price, img, material})
     context.page.redirect('/')
 }
 
-function createProductTemp(handler){
+function createProductTemp(handler, stateForm = {}){
     return html`
     <div class="row space-top">
         <div class="col-md-12">
@@ -30,15 +43,15 @@ function createProductTemp(handler){
             <div class="col-md-4">
                 <div class="form-group">
                     <label class="form-control-label" for="new-make">Make</label>
-                    <input class="form-control valid" id="new-make" type="text" name="make">
+                    <input class="form-control ${stateForm.hasMake}" id="new-make" type="text" name="make">
                 </div>
                 <div class="form-group has-success">
                     <label class="form-control-label" for="new-model">Model</label>
-                    <input class="form-control is-valid" id="new-model" type="text" name="model">
+                    <input class="form-control ${stateForm.hasModel}" id="new-model" type="text" name="model">
                 </div>
                 <div class="form-group has-danger">
                     <label class="form-control-label" for="new-year">Year</label>
-                    <input class="form-control is-invalid" id="new-year" type="number" name="year">
+                    <input class="form-control ${stateForm.hasYear}" id="new-year" type="number" name="year">
                 </div>
                 <div class="form-group">
                     <label class="form-control-label" for="new-description">Description</label>

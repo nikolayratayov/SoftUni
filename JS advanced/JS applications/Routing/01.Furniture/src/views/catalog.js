@@ -1,5 +1,6 @@
 import {html} from '../../../../../../node_modules/lit-html/lit-html.js';
 import {getAllItem} from '../../api/data.js';
+import {getItemTemp} from '../views/fragment/itemsFragment.js'
 
 export async function catalogView(ctx){
     let items = await getAllItem();
@@ -15,7 +16,7 @@ function catalogTemp(data){
         </div>
     </div>
     <div class="row space-top">
-        ${Object.values(data).map(x => createItemTemp(x))}
+        ${Object.values(data).map(x => getItemTemp(x))}
     </div>
     `
 }
