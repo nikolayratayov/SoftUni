@@ -10,3 +10,14 @@ export function setUserData(data){
 export function clearUserData(){
     sessionStorage.removeItem('userData');
 }
+
+export function createSubmitHandler(callabck){
+    return function (event){
+        event.preventDefault();
+        let formData = new FormData(event.target);
+        let data = Object.fromEntries(formData);
+
+        callabck(data);
+
+    }
+}
