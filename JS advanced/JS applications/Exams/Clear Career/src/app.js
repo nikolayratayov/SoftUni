@@ -1,5 +1,6 @@
 import {page, render} from './api/lib.js';
-import * as api from './api/user.js'
+import { updateNav } from './api/views/nav.js';
+
 
 
 page('/', () => console.log('home'));
@@ -9,7 +10,6 @@ page('/edit/:id', () => console.log('edit'));
 page('/create', () => console.log('create'));
 page('/login', () => console.log('login'));
 page('/register', () => console.log('register'));
-
+updateNav();
 page.start();
 
-window.api = api;
