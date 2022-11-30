@@ -1,6 +1,6 @@
-import { html, render, page } from "../../api/lib.js";
-import { logout } from "../../api/user.js";
-import { getUserData } from '../../util.js';
+import { html, render, page } from "../api/lib.js";
+import { logout } from "../api/user.js";
+import { getUserData } from '../util.js';
 
 let header = document.querySelector('header');
 let navTemplate = (hasUser) => html`
