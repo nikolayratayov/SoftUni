@@ -11,7 +11,6 @@ async function request(method, url, data){
         options.headers['content-type'] = 'application/json';
         options.body = JSON.stringify(data);
     }
-
     let user = getUserData();
     if (user){
         options.headers['X-Authorization'] = user.accessToken;

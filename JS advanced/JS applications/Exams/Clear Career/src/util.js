@@ -16,7 +16,6 @@ export function createSubmitHandler(callabck){
         event.preventDefault();
         let formData = new FormData(event.target);
         let data = Object.fromEntries(formData);
-
         callabck(data);
 
     }
