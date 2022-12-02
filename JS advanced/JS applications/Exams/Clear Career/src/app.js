@@ -7,6 +7,7 @@ import { showLogin } from './views/login.js';
 import { showRegister } from './views/register.js';
 import { showDetails } from './views/details.js';
 import { showCreate } from './views/create.js';
+import { showEdit } from './views/edit.js';
 
 let main = document.querySelector('main');
 
@@ -14,7 +15,7 @@ page(decorateContext);
 page('/', showHome);
 page('/catalog', showCatalog);
 page('/catalog/:id', showDetails);
-page('/edit/:id', () => console.log('edit'));
+page('/edit/:id', showEdit);
 page('/create', showCreate);
 page('/login', showLogin);
 page('/register', showRegister);
