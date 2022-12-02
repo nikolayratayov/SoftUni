@@ -6,6 +6,7 @@ import { getUserData } from './util.js';
 import { showLogin } from './views/login.js';
 import { showRegister } from './views/register.js';
 import { showDetails } from './views/details.js';
+import { showCreate } from './views/create.js';
 
 let main = document.querySelector('main');
 
@@ -14,7 +15,7 @@ page('/', showHome);
 page('/catalog', showCatalog);
 page('/catalog/:id', showDetails);
 page('/edit/:id', () => console.log('edit'));
-page('/create', () => console.log('create'));
+page('/create', showCreate);
 page('/login', showLogin);
 page('/register', showRegister);
 updateNav();
