@@ -1,6 +1,7 @@
 # SoftUni
 
 SoftUni homeworks from my SoftUni courses
+- JavaScript applications [certificate](https://softuni.bg/certificates/details/149952/437c924e)
 - Python advanced [certificate](https://softuni.bg/certificates/details/143184/44faa8b5)
 - JavaScript advanced [certificate](https://softuni.bg/certificates/details/145557/8e0ceab1)
 - Algorithms with Python [certificate](https://softuni.bg/certificates/details/139930/1c702b24)
